@@ -1,0 +1,1 @@
+const gameButton = document.querySelector('#clickeable-button');

@@ -1,4 +1,55 @@
+:root{
+    --blue: #3056b0;
+    --veryLightBlue: #cfddff;
+
+
+    --black: #212329;
+    --white: #f7f7f7;
+
+
+    --red: #e06060;
+    --veryLightRed: #ffe9e9;
+
+    --green: #36cc47;
+    --veryLightGreen: #edffef;
+
+}
+
+
 * {
+
     margin: 0;
     padding: 0;
+}
+
+body {
+    background-color: var(--blue);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#title {
+
+    color: var(--veryLightBlue);
+    text-align: center;
+    margin: 25px 0;
+
+}
+
+.game-container {
+    background-color: var(--white);
+    width: 90vw;
+    height: 85vh;
+    margin: auto;
+    z-index: 1;
+}
+
+#clickeable-button{
+    width: 120px;
+    height: 120px;
+    background-color: var(--black);
+    z-index: 2;
+    border-radius: 20%;
+
+    display: flex;
+    position: absolute;
 }
