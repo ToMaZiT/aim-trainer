@@ -47,11 +47,11 @@ body {
 .game-container {
     background-color: var(--white);
     margin: auto;
+    margin-bottom: 0;
     z-index: 1;
-
     position: relative; 
-    width: 90vw;
-    height: 38vw;
+    width: 80vw;
+    height: 75vh;
 }
 
 
@@ -60,10 +60,11 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50px;
-    height: 50px;
+    width: 8vh;
+    height: 8vh;
     background-color: red;
     z-index: 0;
+    border-radius: ;
 
     
 }
@@ -91,17 +92,14 @@ body {
 }
 
 #stats {
-
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px; 
-    background-color: #2c52b5; 
+    text-align: center;
+    margin: auto;
+    padding-top: 5px;
     color: var(--veryLightBlue);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: bold;
-
+    width: auto;
+    height: auto;
   /* 50 px de alto como minimo */
 }
+
+@media ()
